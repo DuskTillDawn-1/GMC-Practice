@@ -2,56 +2,83 @@
 <html >
 <head>
     <meta charset="UTF-8">
-    <title>Checkpoint3</title>
+    <title>Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-      <div>
+  
+        <nav class="site-header">
+        <div><img class="logo" src="portrait femme.jpg"></div>
+        <div class="nav-bar">
+          <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          </ul> 
+        </div>
+      </nav>
       
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-            <a href="#">Resume</a>
-            <div>
-              <a href="#">Contact</a>
-            <form>
-                <label for="name">Name</label>
-              <input type="text"><br>
+      </header>
+    
+      <div class="container">
+        <div class="multimedia">
+           <img class="img-principal" src="portrait femme.jpg">
+        </div>
+        
+        <div class="site-info">
+          <section id="About">
+            <h3>About</h3>
+            <p>A few feet from the doctor’s office
+              I checked my iPhone. No messages. No excuse or reason to abort the appointment. My heart was racing. Calm
+              get calm. I looked across the street at the low granite wall that borders Central Park. Leaves fluttered gently in the summer breeze. Under the shade of a huge oak
+              a man wearing a blue running suit sat on a bench next to the wall. His small gray dog lay on the sidewalk next to him. | © B. Butler</p>
+  
+        <section id="Work">
+            <h3>Work</h3> 
+            <p>My best friend in the world probably does not exist. We never speak longer than twenty minutes or so, and then I don’t see him for a year — but he is my closest friend. He has been so for my whole life. I hope he will be there when I die, or at least that I will meet him once more on that day. | © Mateja Vidakovic</p>
+        </section>
+        
+        <section id="Resume">
+            <h3>Resume</h3>
+            <p> Have you ever slipped on a banana peel? Probably not. Because banana peels aren’t particularly slippery. | © Michael Ilkiw</p>
+        </section>
+        
+        <section id="Contact">
+            <h3>Contact</h3>
+            <p></p>
+        <form>
+            <label for="name">Name</label>
+            <input type="text"><br>
                 
-                <label for="email">Email</label>
-              <input type="email"><br>
+            <label for="email">Email</label>
+            <input type="email"><br>
             
-                <label for="message">Message</label>
-              <input type="text"><br>
+            <label for="message">Message</label>
+            <textarea type="text"></textarea><br>
           
-                <button>Send</button>
+            <button class="submit-button" type="submit">Send</button>
              
-            </form>
-            </div>
-          </nav> 
+        </form>
+        </section>
+        </div>
+
       </div>
-       
-    </header>
-    <main>
-   <h1>Morocco WON !!!</h1>
-   <p>Click on to watch the historical Match of FIFA 2022.</p>
-   <video style="height: 500px; width:500px;" >
-    <source src="Fifa 2022 - MAROC vs CANADA.mp4" type="video/mp4">
-   </video>
-    </main>
+     
+     
 
     <footer> 
-      <div>
-      <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Contact</a></li>
-      </ul> 
+      
+      <div class="logo-selection">
+       <img class="insta-logo" src="insta-logo.png">
+       <img class="twitter-logo" src="twitter-logo.png"> 
+       <img class="github-logo" src="github-logo-white-300x199.png"> 
       </div>
-    
+      
+      <p>Ibtissam ElJamii</p>
       
     </footer>
     
